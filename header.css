@@ -1,0 +1,67 @@
+/* --- Global --- */
+body, html, canvas {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  align-items: center;
+}
+
+/* --- logo + text --- */
+
+header #marque {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 13px;
+  align-items: center;
+}
+
+header #marque img {
+  height: 6vh;
+}
+
+/* --- Accès page --- */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  color: none;
+  text-decoration: none;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 15px;
+  font-size: 18px;
+}
+
+/* --- Recherche --- */
+header #search img {
+  height: 6vh;
+}
+
+/* header input {
+  display: flex;
+  margin: 20px 0px;
+} */
+
+
+/* --- Compte et panier --- */
+header #personal img {
+  height: 6vh;
+}

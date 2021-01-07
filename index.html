@@ -3,44 +3,41 @@
     <head>
   		<meta charset="utf-8"/>
   		<link rel="stylesheet" type="text/css" href="header.css">
-      <link rel="stylesheet" type="text/css" href="welcome.css">
+      <link rel="stylesheet" type="text/css" href="footer.css">
+      <link rel="stylesheet" type="text/css" href="style_welcome.css">
   		<title>Nautilius</title>
-      <link rel="icon" type="png" href="logo.png" />
+      <link rel="icon" type="png" href="icon/logo.png" />
     </head>
 
     <body>
 
       <header>
 
-          <div id="marque">
-    			     <img src="logo.png" alt="Nautilius Logo">
-               <h1>NAUTILIUS</h1>
-          </div>
+            <div id="marque">
+              <a href="#">
+      			   <img src="icon/logo.png" alt="Nautilius Logo">
+                <h1>NAUTILIUS</h1>
+                </a>
+            </div>
 
           <nav>
               <ul>
-      				    <li><a href="#">Accueil</a></li>
-      				    <li><a href="#">Boutique</a></li>
-                  <li><a href="#">Qui sommes-nous ?</a></li>
-      				    <li><a href="#">Support</a></li>
+      				    <li><a href="#"><img class="icon" src="icon/home.png" alt="Home Icon">Accueil</a></li>
+                  <li><a href="#"><img class="icon" src="icon/Who.png" alt="Shop Icon">Qui sommes-nous?</a></li>
+                  <li><a href="#"><img class="icon" src="icon/contact.png" alt="Contact Icon">Contact</a></li>
               </ul>
           </nav>
 
-          <div id="search">
-            <!-- <input type="text" value=""> -->
-            <img src="logo.png" alt="Search Icon">
-          </div>
-
           <section id="personal">
-            <a href="#"><img src="logo.png" alt="Boutique Icon"></a>
-            <a href="#"><img src="logo.png" alt="Account Icon"></a>
+            <img class="icon" src="icon/search_icon.png" alt="Shop Icon">
+            <input type="text" value="">
     			</section>
 
       </header>
 
       <section id="corps">
 
-        <section id="message">
+        <section class="message">
           <h1>Bienvenue sur la boutique Nautilius</h1>
 
           <p>Des promotions sur vos jeux vidéos préféré sont présentes toute l'année !</p>
@@ -49,43 +46,60 @@
         </section>
 
         <section id="infos">
-          <section id="nouveauté">
+
+          <div class="message">
             <h1>Red Dimension : Démo Disponible !</h1>
+            <img src="game_perso/red_dimension.png" alt="Game : Red Dimesion">
             <p>Découvrer le Red dimension en avant première avec sa démo officiel sortie le 27 décembre 2020.</p>
-          </section>
-          <section id="promotion">
-            <h1>La promotion sur CyberPunk 2077 à ne pas manqué !</h1>
-            <p>-75% sur CyberPunk 2077. Incarner un personnage dont l'objectif est de trouver un maximum d'insectes ! Ce sont des centaines d'insectes différents à découvrir en jeu.</p>
-          </section>
+          </div>
+
+          <div class="message">
+            <h1>Ne manquer pas la promotion pour Cyberpunk 2077 !</h1>
+            <div>
+              <img src="game/cyberpunk.jpg" alt="Nautilius Logo">
+              <p>-75%</p>
+            </div>
+            <p>Incarner un personnage dont l'objectif est de trouver un maximum d'insectes ! Ce sont des centaines d'insectes différents à découvrir en jeu.</p>
+          </div>
+
         </section>
 
       </section>
 
       <section id="categorie">
-        <h1>Jeux par cathégorie</h1>
+
+        <h1>Nos catégories populaire</h1>
         <div>
             <a href="#">
-              <img src="among_us.jpg" alt="Search Icon">
-              <p>Jeux Multijoueur</p>
+              <img src="game/among_us.jpg" alt="Search Icon">
+              <p>Jeux multijoueur</p>
             </a>
             <a href="#">
-              <img src="among_us.jpg" alt="Search Icon">
-              <p>Jeux Multijoueur</p>
+              <img src="game/undertale.jpg" alt="Undertale box">
+              <p>Jeux narratif</p>
             </a>
             <a href="#">
-              <img src="among_us.jpg" alt="Search Icon">
-              <p>Jeux Multijoueur</p>
+              <img src="game/life_is_strange.png" alt="Life is strange box">
+              <p>Jeux à choix</p>
             </a>
             <a href="#">
-              <img src="among_us.jpg" alt="Search Icon">
-              <p>Jeux Multijoueur</p>
+              <img src="game/wakfu.png" alt="Wakfu box">
+              <p>Jeux de stratégie</p>
             </a>
             <a href="#">
-              <img src="among_us.jpg" alt="Search Icon">
-              <p>Jeux Multijoueur</p>
+              <img src="game/zelda.png" alt="Zelda box">
+              <p>Jeux de combat</p>
             </a>
           </div>
       </section>
+
+      <footer>
+    		<ul>
+    			<li>Réalisé avec Notepad++</li>
+    			<li>HTML5 valide</li>
+    			<li>CSS valide</li>
+    		</ul>
+    	</footer>
 
     </body>
 </html>

@@ -1,34 +1,53 @@
 /* --- Global --- */
+@font-face {
+  font-family: 'MyFont';
+  src: url('font/AvenirNextLTPro-Regular.otf');
+ }
+
 body, html, canvas {
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: #CECECE;
+  font-family: 'MyFont';
+  text-decoration: none;
 }
 
 header {
-  background-color: black;
+  background-color: rgb(20,20,20);
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 8vh;
+  height: 50px;
   align-items: center;
 }
 
 /* --- logo + text --- */
 
-header #marque {
+header #marque a {
   display: flex;
   justify-content: space-between;
-  color: white;
-  font-size: 13px;
   align-items: center;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+header #marque h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0px 10px;
+  text-decoration: none;
 }
 
 header #marque img {
-  height: 6vh;
+  height: 5vh;
 }
 
 /* --- Accès page --- */
+
+.icon {
+  height: 2.5vh;
+  margin-right: 6px;
+}
 
 header nav {
   display: flex;
@@ -37,31 +56,39 @@ header nav {
 }
 
 header nav ul {
+  list-style: none;
   display: flex;
   justify-content: space-between;
-  color: none;
-  text-decoration: none;
 }
 
 header nav ul a {
   text-decoration: none;
-  color: white;
-  margin: 0px 15px;
   font-size: 18px;
-}
-
-/* --- Recherche --- */
-header #search img {
-  height: 6vh;
-}
-
-/* header input {
+  color: white;
+  margin: 0px 35px;
   display: flex;
-  margin: 20px 0px;
-} */
+  align-items: center;
+}
 
+header nav ul a:hover {
+  color: #01767D;
+  font-weight: bold;
+}
 
 /* --- Compte et panier --- */
-header #personal img {
-  height: 6vh;
+header #personal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #personal input {
+  height: 2.5vh;
+  width: 13vw;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+
+header #personal input:focus {
+  outline: none;
 }

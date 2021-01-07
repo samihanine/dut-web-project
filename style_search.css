@@ -1,0 +1,66 @@
+body section {
+  display: flex;
+}
+
+#settings {
+  padding: 0px 10px;
+  background-color: #12686C;
+  width: 20vw;
+}
+
+#resultat {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+}
+
+#resultat #infos {
+  display: flex;
+  justify-content: space-between;
+  background-color: #CCCCCC;
+  flex-direction: row;
+  padding: 0px 10px;
+}
+#resultat #infos p {
+  font-style: italic;
+  font-size: 12px;
+  margin: 5px;
+}
+
+#article {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media (max-width:700px) {
+  #article {
+    grid-template-columns: 1fr;
+  }
+}
+
+#article div {
+
+  border:solid 1px #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#article img {
+  margin-top: 10px;
+  height: 30vh;
+  border: solid 1px black;
+}
+
+#article h1 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#article p {
+  font-family: 'MyFont';
+  margin: 0px 0px 10px 0px;
+}

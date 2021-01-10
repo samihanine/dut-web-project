@@ -39,7 +39,7 @@ header #marque h1 {
 }
 
 header #marque img {
-  height: 5vh;
+  height: 32px;
 }
 
 /* --- Accès page --- */
@@ -84,13 +84,15 @@ header #search {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 header #search input {
   height: 2.5vh;
-  width: 13vw;
+  width: 150px;
   border-radius: 5px;
   margin: 0px 20px;
+
 }
 
 header #search input:focus {

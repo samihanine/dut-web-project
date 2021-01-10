@@ -1,7 +1,7 @@
 /* --- Global --- */
 @font-face {
   font-family: 'MyFont';
-  src: url('font/AvenirNextLTPro-Regular.otf');
+  src: url('../font/AvenirNextLTPro-Regular.otf');
  }
 
 body, html, canvas {
@@ -23,7 +23,7 @@ header {
 
 /* --- logo + text --- */
 
-header #marque a {
+header #marque {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ header #marque a {
 
 header #marque h1 {
   color: white;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin: 0px 10px;
   text-decoration: none;
 }

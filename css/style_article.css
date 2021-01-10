@@ -1,17 +1,17 @@
 .corps {
   display: flex;
-  margin: 0 10vw;
   align-items: center;
   background-color: #EFEFEF;
-  margin: 10px 10vw;
+  margin: 15px 10vw;
   border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
 }
 
 .corps div {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  margin: 0px 10px;
+  margin: 0 10px;
   flex-wrap: wrap;
 }
 
@@ -50,7 +50,7 @@
 .corps section {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .corps section div {
@@ -64,6 +64,7 @@
   margin: 10px;
   text-align: center;
   color: #12686C;
+  font-weight: 900;
 }
 
 .corps section div p {
@@ -80,6 +81,7 @@
   margin: 0 20px;
   padding: 10px;
   background-color: lightgrey;
+  border-radius: 3px;
 }
 
 .corps #prix + p {
@@ -91,6 +93,7 @@ td {
   font-size: 16px;
   padding: 5px;
   text-align: center;
+  border-radius: 3px;
 }
 
 td:first-child {
@@ -107,4 +110,63 @@ td:first-child {
   margin: 0 10vw;
   background-color: #EFEFEF;
   border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.comment section {
+  margin: 15px;
+}
+
+.comment input {
+  width: 50vw;
+  height: 3vw;
+  margin-left: 15px;
+}
+
+.comment h2 {
+  margin-top: 0px;
+}
+
+.comm {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 15px 5vw;
+  padding: 10px;
+  display: flex;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: solid 1.5px grey;
+  padding: 0 10px;
+}
+
+.account p {
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+.account img {
+  width: 40px;
+  height: auto;
+}
+
+.account div {
+  display: flex;
+}
+
+.account div img {
+  width: 20px;
+  height: auto;
+}
+
+.comm_text {
+  padding: 10px;
+}
+.comm_text p {
+  font-size: 17px;
+  margin: 5px;
 }

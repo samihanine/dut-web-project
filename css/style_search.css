@@ -27,6 +27,15 @@ body section {
   flex-direction: column;
 }
 
+.settings div {
+  display: flex;
+  align-items: center;
+}
+
+.settings div p {
+  margin: 0px 0px 0px 10px;
+}
+
 .settings input[type=checkbox] {
   height: 15px;
   width: 15px;
@@ -70,14 +79,17 @@ body section {
   }
 }
 
-.article div {
+.article a {
   border:solid 1px #CCCCCC;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
-.article div:hover {
+.article a:hover {
   background-color: #E5E5E5;
 }
 

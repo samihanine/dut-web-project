@@ -6,7 +6,7 @@ body #corps {
 
 
   min-height: calc(100vh - 50px);
-  background-image: url("background.png");
+  background-image: url("../image/background.png");
   flex-wrap: wrap;
 }
 

@@ -4,15 +4,10 @@ body #corps {
   justify-content: space-around;
   align-items: center;
 
-  height: calc(100vh - 50px);
+
+  min-height: calc(100vh - 50px);
   background-image: url("background.png");
   flex-wrap: wrap;
-}
-
-@media (max-width: 728px) {
-  body #corps {
-    height: 1000px;
-  }
 }
 
 /* message de Bienvenue */
@@ -21,6 +16,7 @@ body #corps {
   max-width: 400px;
   box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+  margin: 1.5vh;
 }
 
 /* bienvenue + promo */
@@ -89,8 +85,11 @@ body #corps {
 }
 
 #categorie h1 {
-  margin: 20px 0px 0px 35px;
-  letter-spacing: 0.15em;
+  margin: 20px 35px 0px 35px;
+
+
+  border-bottom: solid 2px;
+  padding-bottom: 10px;
 }
 
 #categorie div {

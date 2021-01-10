@@ -1,0 +1,110 @@
+.corps {
+  display: flex;
+  margin: 0 10vw;
+  align-items: center;
+  background-color: #EFEFEF;
+  margin: 10px 10vw;
+  border-radius: 5px;
+}
+
+.corps div {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0px 10px;
+  flex-wrap: wrap;
+}
+
+.corps div img {
+  width: 25vw;
+  margin: 10px 0px 20px 0px;
+  border: solid 1px black;
+
+}
+
+.corps div a {
+  height: 6vh;
+  padding: 10px;
+  background-color: #12686C;
+  border-radius: 5px;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.corps div a:hover {
+  background-color: #168596;
+}
+.corps div a img {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  border: none;
+}
+
+/* description */
+.corps section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.corps section div {
+  border-top: solid 1.5px grey;
+  padding-bottom: 20px;
+}
+
+
+.corps section h1 {
+  font-size: 38px;
+  margin: 10px;
+  text-align: center;
+  color: #12686C;
+}
+
+.corps section div p {
+  margin: 0 0;
+  padding-right: 10px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.corps #prix {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 0 20px;
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+.corps #prix + p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+td {
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+  background-color: #CCCCCC;
+}
+
+/*  comment */
+.comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 10vw;
+  background-color: #EFEFEF;
+  border-radius: 5px;
+}

@@ -6,49 +6,93 @@
       <link rel="stylesheet" type="text/css" href="footer.css">
       <link rel="stylesheet" type="text/css" href="style_search.css">
   		<title>Nautilius</title>
-      <link rel="icon" type="png" href="logo.png" />
+      <link rel="icon" type="png" href="icon/logo.png" />
     </head>
 
     <body>
 
       <header>
 
-            <div id="marque">
-              <a href="#">
-      			   <img src="logo.png" alt="Nautilius Logo">
-                <h1>NAUTILIUS</h1>
-                </a>
-            </div>
+          <section id="marque">
+            <a href="#">
+             <img src="icon/logo.png" alt="Nautilius Logo">
+              <h1>NAUTILIUS</h1>
+              </a>
+          </section>
 
           <nav>
               <ul>
-      				    <li><a href="#"><img src="icon/home.png" alt="Home Icon">Accueil</a></li>
-      				    <li><a href="#"><img src="icon/Shop.png" alt="Shop Icon">Boutique</a></li>
-                  <li><a href="#"><img src="icon/Who.png" alt="Shop Icon">Qui sommes-nous?</a></li>
-      				    <li><a href="#"><img src="icon/contact.png" alt="Contact Icon">Contact</a></li>
+                  <li><a href="#"><img class="icon" src="icon/home.png" alt="Home Icon">Accueil</a></li>
+                  <li><a href="#"><img class="icon" src="icon/who.png" alt="Who Icon">Qui sommes-nous?</a></li>
+                  <li><a href="#"><img class="icon" src="icon/contact.png" alt="Contact Icon">Contact</a></li>
               </ul>
           </nav>
 
-          <div id="search">
-            <img src="search_icon.png" alt="Search Icon">
+          <section id="search">
+            <img class="icon" src="icon/search_icon.png" alt="Shop Icon">
             <input type="text" value="">
-
-          </div>
-
-          <section id="personal">
-            <a href="#"><img src="panier_icon.png" alt="Boutique Icon"></a>
-            <a href="#"><img src="account_icon.png" alt="Account Icon"></a>
-    			</section>
+          </section>
 
       </header>
 
       <section>
 
-        <section id="settings">
+        <section class="settings">
           <h1>Paramètre de recherches</h1>
+
+          <h2>Prix</h2>
+            <div>
+              <input type="range" id="price" min="0" max="10">
+              <label for="price">0 - 100€</label>
+            </div>
+
+          <h2>Langues</h2>
+          <div>
+            <input type="checkbox" id="coding" checked>
+            <label for="coding">Français</label>
+          </div>
+          <div>
+            <input type="checkbox" id="coding">
+            <label for="coding">Anglais</label>
+          </div>
+
+          <h2>Compatibilité</h2>
+
+          <div>
+            <input type="checkbox" id="nav" checked>
+            <label for="nav">Navigateur</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="linux">
+            <label for="linux">Linux</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="mac">
+            <label for="mac">Mac OS</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="win" checked>
+            <label for="win">Windows</label>
+          </div>
+
+          <h2>Démo disponible</h2>
+
+          <div>
+            <input type="checkbox" id="online" checked>
+            <label for="online">En ligne</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="dl" checked>
+            <label for="dl">Téléchargement</label>
+          </div>
+
         </section>
 
-        <section id="resultat">
+        <section class="resultat">
 
           <div id="infos">
             <p>14 résultats trouvés</p>
@@ -57,7 +101,7 @@
             </div>
           </div>
 
-          <section id="article">
+          <section class="article">
             <div>
               <img src="game_perso/red_dimension.png" alt="Game : Red Dimesion">
               <h1>Red Dimension</h1>

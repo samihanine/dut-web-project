@@ -33,7 +33,7 @@ header #marque a {
 
 header #marque h1 {
   color: white;
-  font-size: 20px;
+  font-size: 1.6vw;
   margin: 0px 10px;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@ header #marque img {
 /* --- Accès page --- */
 
 .icon {
-  height: 2.5vh;
+  height: 15px;
   margin-right: 6px;
 }
 
@@ -63,7 +63,7 @@ header nav ul {
 
 header nav ul a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2vw;
   color: white;
   margin: 0px 35px;
   display: flex;
@@ -75,20 +75,24 @@ header nav ul a:hover {
   font-weight: bold;
 }
 
-/* --- Compte et panier --- */
-header #personal {
+header nav ul a:hover img {
+  filter: invert(33%) sepia(21%) saturate(2876%) hue-rotate(144deg) brightness(58%) contrast(99%);
+}
+
+/* --- Recherche --- */
+header #search {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header #personal input {
+header #search input {
   height: 2.5vh;
   width: 13vw;
   border-radius: 5px;
   margin: 0px 20px;
 }
 
-header #personal input:focus {
+header #search input:focus {
   outline: none;
 }

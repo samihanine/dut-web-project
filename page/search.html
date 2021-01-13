@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html  lang="fr">
     <head>
   		<meta charset="utf-8"/>
   		<link rel="stylesheet" type="text/css" href="../css/header.css">
       <link rel="stylesheet" type="text/css" href="../css/footer.css">
       <link rel="stylesheet" type="text/css" href="../css/style_search.css">
   		<title>Nautilius</title>
-      <link rel="icon" type="png" href="../image/icon/logo.png" />
+      <link rel="icon" type="image/png" href="../image/icon/logo.png" />
     </head>
 
     <body>
 
       <header>
 
-          <section id="marque">
+          <div id="marque">
             <img src="../image/icon/logo.png" alt="Nautilius Logo">
             <h1>NAUTILIUS</h1>
-          </section>
+          </div>
 
           <nav>
               <ul>
                   <li><a href="../index.html"><img class="icon" src="../image/icon/home.png" alt="Home Icon">Accueil</a></li>
                   <li><a href="#"><img class="icon" src="../image/icon/shop.png" alt="Shop Icon">Boutique</a></li>
-                  <li><a href="#"><img class="icon" src="../image/icon/who.png" alt="Who Icon">Qui sommes-nous?</a></li>
+                  <li><a href="who.html"><img class="icon" src="../image/icon/who.png" alt="Who Icon">Qui sommes-nous?</a></li>
 
               </ul>
           </nav>
 
-          <section id="search">
+          <div id="search">
             <img class="icon" src="../image/icon/search_icon.png" alt="Shop Icon">
-            <input type="text" value="">
-          </section>
+            <form action="search.html">
+              <input type="text" value="par sam">
+            </form>
+          </div>
 
       </header>
 
-      <section>
+      <div>
 
-        <section class="settings">
+        <div class="settings">
           <h1>Paramètre de recherches</h1>
 
           <h2>Prix</h2>
-            <div>
-              <input type="range" id="price" min="0" max="10">
-              <p>0 - 100€</p>
-            </div>
+          <div>
+            <input id="valeur1" name="valeur1" type="number" placeholder="de 1 à 10" min="1" max="99" value="10">
+            <p>€</p>
+          </div>
 
           <h2>Langues</h2>
           <div>
@@ -56,42 +58,38 @@
           </div>
 
           <h2>Compatibilité</h2>
-
           <div>
             <input type="checkbox" checked>
             <p>Navigateur</p>
           </div>
-
           <div>
             <input type="checkbox">
             <p>Linux</p>
           </div>
-
           <div>
             <input type="checkbox">
             <p>Mac OS</p>
           </div>
-
           <div>
             <input type="checkbox" checked>
             <p>Windows</p>
           </div>
 
           <h2>Démo disponible</h2>
-
           <div>
             <input type="checkbox" checked>
             <p>En ligne</p>
           </div>
-
           <div>
             <input type="checkbox" checked>
-            <p>Téléchargement</p>
+            <p>Télécharger</p>
           </div>
 
-        </section>
+          <button type="submit">Rechercher</button>
 
-        <section class="resultat">
+        </div>
+
+        <div class="resultat">
 
           <div id="infos">
             <p>13 résultats trouvés</p>
@@ -100,7 +98,7 @@
             </div>
           </div>
 
-          <section class="article">
+          <div class="article">
             <a href="article1.html">
               <img src="../image/game_perso/red_dimension.png" alt="Game">
               <h1>Red Dimension</h1>
@@ -116,60 +114,60 @@
               <h1>Snake</h1>
               <p>2,00€</p>
             </a>
-            <a href="#">
+            <a href="article4.html">
               <img src="../image/game_perso/Totorotale.png" alt="Game">
               <h1>Totorotale</h1>
               <p>17,99€</p>
             </a>
-            <a href="#">
+            <a href="article5.html">
               <img src="../image/game_perso/pacman.png" alt="Game">
               <h1>Pacman</h1>
               <p>4,49€</p>
             </a>
-            <a href="#">
+            <a href="article6.html">
               <img src="../image/game_perso/gameoflife.png" alt="Game">
               <h1>Jeu de la vie</h1>
               <p>42,00€</p>
             </a>
-            <a href="#">
+            <a href="article7.html">
               <img src="../image/game_perso/Deus_Ex_Machina_3D.gif" alt="Game">
               <h1>Deus Ex Machina</h1>
               <p>3,00€</p>
             </a>
-            <a href="#">
+            <a href="article8.html">
               <img src="../image/game_perso/Deus_Ex_Machina.png" alt="Game">
               <h1>Deus Ex Machina</h1>
               <p>8,49€</p>
             </a>
-            <a href="#">
-              <img src="../image/game_perso/Deus_Ex_Machina.png" alt="Game">
+            <a href="article9.html">
+              <img src="../image/game_perso/space.png" alt="Game">
               <h1>Space Invader</h1>
               <p>1,00€</p>
             </a>
-            <a href="#">
+            <a href="article10.html">
               <img src="../image/game_perso/tétris.png" alt="Game">
               <h1>Tétris</h1>
               <p>5,39€</p>
             </a>
-            <a href="#">
+            <a href="article11.html">
               <img src="../image/game_perso/os.png" alt="Game">
               <h1>Nautilius Os</h1>
               <p>100,00€</p>
             </a>
-            <a href="#">
+            <a href="article12.html">
               <img src="../image/game_perso/batchtown2.png" alt="Game">
               <h1>BatchTown</h1>
               <p>54,99€</p>
             </a>
-            <a href="#">
+            <a href="article13.html">
               <img src="../image/game_perso/dungeon2.png" alt="Game">
               <h1>Dungeon Batch</h1>
               <p>6,00€</p>
             </a>
-          </section>
+          </div>
 
-        </section>
-      </section>
+        </div>
+      </div>
 
     </body>
 </html>

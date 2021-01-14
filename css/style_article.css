@@ -46,8 +46,8 @@
   background-color: #168596;
 }
 .corps div a img {
-  width: auto;
-  height: 100%;
+  max-width: 30px;
+  height: auto;
   margin: 0;
   border: none;
 }

@@ -2,9 +2,10 @@
 footer  {
   color: white;
   background-color: black;
+  display : table-row;
 
   width: 100%;
-  min-height: 7vh;
+  min-height: 30px;
 
   padding: 0;
   display: flex;

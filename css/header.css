@@ -10,6 +10,7 @@ body, html, canvas {
   background-color: #CECECE;
   font-family: 'MyFont';
   text-decoration: none;
+  background-repeat: no-repeat;
 }
 
 input:focus {

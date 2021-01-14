@@ -1,188 +1,222 @@
 <!DOCTYPE html>
 <html  lang="fr">
-    <head>
-  		<meta charset="utf-8"/>
-  		<link rel="stylesheet" type="text/css" href="../css/header.css">
-      <link rel="stylesheet" type="text/css" href="../css/footer.css">
-      <link rel="stylesheet" type="text/css" href="../css/style_search.css">
-  		<title>Nautilius</title>
-      <link rel="icon" type="image/png" href="../image/icon/logo.png" />
-    </head>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/style_search.css">
+		<title>Nautilius</title>
+		<link rel="icon" type="image/png" href="../image/icon/logo.png" />
+	</head>
+	<body>
+		<header>
+			<div id="marque">
+				<img src="../image/icon/logo.png" alt="Nautilius Logo">
+				<h1>NAUTILIUS</h1>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="../index.html"><img class="icon" src="../image/icon/home.png" alt="Home Icon">Accueil</a>
+					</li>
+					<li>
+						<a href="#"><img class="icon" src="../image/icon/shop.png" alt="Shop Icon">Boutique</a>
+					</li>
+					<li>
+						<a href="who.html"><img class="icon" src="../image/icon/who.png" alt="Who Icon">Qui sommes-nous?</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="search">
+				<img class="icon" src="../image/icon/search_icon.png" alt="Shop Icon">
+				<form action="search.html">
+					<input type="text" value="par sam">
+				</form>
+			</div>
+		</header>
+		<div>
+			<div class="settings">
+				<h1>Paramètre de recherches</h1>
+				<h2>Prix Max</h2>
+				<div>
+					<input id="valeur1" name="valeur1" type="number" min="1" max="130" value="100">
+					<p>
+						€
+					</p>
+				</div>
+				<h2>Langues</h2>
+				<div>
+					<input type="checkbox" checked>
+					<p>
+						Français
+					</p>
+				</div>
+				<div>
+					<input type="checkbox">
+					<p>
+						Anglais
+					</p>
+				</div>
+				<h2>Compatibilité</h2>
+				<div>
+					<input type="checkbox" checked>
+					<p>
+						Navigateur
+					</p>
+				</div>
+				<div>
+					<input type="checkbox">
+					<p>
+						Linux
+					</p>
+				</div>
+				<div>
+					<input type="checkbox">
+					<p>
+						Mac OS
+					</p>
+				</div>
+				<div>
+					<input type="checkbox" checked>
+					<p>
+						Windows
+					</p>
+				</div>
+				<h2>Démo disponible</h2>
+				<div>
+					<input type="checkbox" checked>
+					<p>
+						En ligne
+					</p>
+				</div>
+				<div>
+					<input type="checkbox" checked>
+					<p>
+						Télécharger
+					</p>
+				</div>
+				<a href="#"><p id="submit">Rechercher</p></a>
+			</div>
+			<div class="resultat">
+				<div id="infos">
+					<p>
+						13 résultats trouvés
+					</p>
+					<div>
+						<p>
+							Trier par Date
+						</p>
+					</div>
+				</div>
+				<div class="article">
+					<a href="article1.html">
+						<img src="../image/game_perso/red_dimension.png" alt="Game">
+						<h1>Red Dimension</h1>
+						<p>
+							24,99€
+						</p>
+					</a>
+					<a href="article2.html">
+						<img src="../image/game_perso/puissance4.png" alt="Game">
+						<h1>Puissance 4</h1>
+						<p>
+							4,49€
+						</p>
+					</a>
+					<a href="article3.html">
+						<img src="../image/game_perso/snake.png" alt="Game">
+						<h1>Snake</h1>
+						<p>
+							2,00€
+						</p>
+					</a>
+					<a href="article4.html">
+						<img src="../image/game_perso/Totorotale.png" alt="Game">
+						<h1>Totorotale</h1>
+						<p>
+							17,99€
+						</p>
+					</a>
+					<a href="article5.html">
+						<img src="../image/game_perso/pacman.png" alt="Game">
+						<h1>Pacman</h1>
+						<p>
+							4,49€
+						</p>
+					</a>
+					<a href="article6.html">
+						<img src="../image/game_perso/gameoflife.png" alt="Game">
+						<h1>Jeu de la vie</h1>
+						<p>
+							42,00€
+						</p>
+					</a>
+					<a href="article7.html">
+						<img src="../image/game_perso/Deus_Ex_Machina_3D.gif" alt="Game">
+						<h1>Deus Ex Machina</h1>
+						<p>
+							3,00€
+						</p>
+					</a>
+					<a href="article8.html">
+						<img src="../image/game_perso/Deus_Ex_Machina.png" alt="Game">
+						<h1>Deus Ex Machina</h1>
+						<p>
+							8,49€
+						</p>
+					</a>
+					<a href="article9.html">
+						<img src="../image/game_perso/space.png" alt="Game">
+						<h1>Space Invader</h1>
+						<p>
+							1,00€
+						</p>
+					</a>
+					<a href="article10.html">
+						<img src="../image/game_perso/tétris.png" alt="Game">
+						<h1>Tétris</h1>
+						<p>
+							5,39€
+						</p>
+					</a>
+					<a href="article11.html">
+						<img src="../image/game_perso/os.png" alt="Game">
+						<h1>Nautilius Os</h1>
+						<p>
+							100,00€
+						</p>
+					</a>
+					<a href="article12.html">
+						<img src="../image/game_perso/batchtown2.png" alt="Game">
+						<h1>BatchTown</h1>
+						<p>
+							54,99€
+						</p>
+					</a>
+					<a href="article13.html">
+						<img src="../image/game_perso/dungeon2.png" alt="Game">
+						<h1>Dungeon Batch</h1>
+						<p>
+							6,00€
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
 
-    <body>
-
-      <header>
-
-          <div id="marque">
-            <img src="../image/icon/logo.png" alt="Nautilius Logo">
-            <h1>NAUTILIUS</h1>
-          </div>
-
-          <nav>
-              <ul>
-                  <li><a href="../index.html"><img class="icon" src="../image/icon/home.png" alt="Home Icon">Accueil</a></li>
-                  <li><a href="#"><img class="icon" src="../image/icon/shop.png" alt="Shop Icon">Boutique</a></li>
-                  <li><a href="who.html"><img class="icon" src="../image/icon/who.png" alt="Who Icon">Qui sommes-nous?</a></li>
-
-              </ul>
-          </nav>
-
-          <div id="search">
-            <img class="icon" src="../image/icon/search_icon.png" alt="Shop Icon">
-            <form action="search.html">
-              <input type="text" value="par sam">
-            </form>
-          </div>
-
-      </header>
-
-      <div>
-
-        <div class="settings">
-          <h1>Paramètre de recherches</h1>
-
-          <h2>Prix</h2>
-          <div>
-            <input id="valeur1" name="valeur1" type="number" min="1" max="130" value="100">
-            <p>€</p>
-          </div>
-
-          <h2>Langues</h2>
-          <div>
-            <input type="checkbox" checked>
-            <p>Français</p>
-          </div>
-          <div>
-            <input type="checkbox">
-            <p>Anglais</p>
-          </div>
-
-          <h2>Compatibilité</h2>
-          <div>
-            <input type="checkbox" checked>
-            <p>Navigateur</p>
-          </div>
-          <div>
-            <input type="checkbox">
-            <p>Linux</p>
-          </div>
-          <div>
-            <input type="checkbox">
-            <p>Mac OS</p>
-          </div>
-          <div>
-            <input type="checkbox" checked>
-            <p>Windows</p>
-          </div>
-
-          <h2>Démo disponible</h2>
-          <div>
-            <input type="checkbox" checked>
-            <p>En ligne</p>
-          </div>
-          <div>
-            <input type="checkbox" checked>
-            <p>Télécharger</p>
-          </div>
-
-          <a href="#"><p id="submit">Rechercher</p></a>
-
-        </div>
-
-        <div class="resultat">
-
-          <div id="infos">
-            <p>13 résultats trouvés</p>
-            <div>
-              <p>Trier par Date</p>
-            </div>
-          </div>
-
-          <div class="article">
-            <a href="article1.html">
-              <img src="../image/game_perso/red_dimension.png" alt="Game">
-              <h1>Red Dimension</h1>
-              <p>24,99€</p>
-            </a>
-            <a href="article2.html">
-              <img src="../image/game_perso/puissance4.png" alt="Game">
-              <h1>Puissance 4</h1>
-              <p>4,49€</p>
-            </a>
-            <a href="article3.html">
-              <img src="../image/game_perso/snake.png" alt="Game">
-              <h1>Snake</h1>
-              <p>2,00€</p>
-            </a>
-            <a href="article4.html">
-              <img src="../image/game_perso/Totorotale.png" alt="Game">
-              <h1>Totorotale</h1>
-              <p>17,99€</p>
-            </a>
-            <a href="article5.html">
-              <img src="../image/game_perso/pacman.png" alt="Game">
-              <h1>Pacman</h1>
-              <p>4,49€</p>
-            </a>
-            <a href="article6.html">
-              <img src="../image/game_perso/gameoflife.png" alt="Game">
-              <h1>Jeu de la vie</h1>
-              <p>42,00€</p>
-            </a>
-            <a href="article7.html">
-              <img src="../image/game_perso/Deus_Ex_Machina_3D.gif" alt="Game">
-              <h1>Deus Ex Machina</h1>
-              <p>3,00€</p>
-            </a>
-            <a href="article8.html">
-              <img src="../image/game_perso/Deus_Ex_Machina.png" alt="Game">
-              <h1>Deus Ex Machina</h1>
-              <p>8,49€</p>
-            </a>
-            <a href="article9.html">
-              <img src="../image/game_perso/space.png" alt="Game">
-              <h1>Space Invader</h1>
-              <p>1,00€</p>
-            </a>
-            <a href="article10.html">
-              <img src="../image/game_perso/tétris.png" alt="Game">
-              <h1>Tétris</h1>
-              <p>5,39€</p>
-            </a>
-            <a href="article11.html">
-              <img src="../image/game_perso/os.png" alt="Game">
-              <h1>Nautilius Os</h1>
-              <p>100,00€</p>
-            </a>
-            <a href="article12.html">
-              <img src="../image/game_perso/batchtown2.png" alt="Game">
-              <h1>BatchTown</h1>
-              <p>54,99€</p>
-            </a>
-            <a href="article13.html">
-              <img src="../image/game_perso/dungeon2.png" alt="Game">
-              <h1>Dungeon Batch</h1>
-              <p>6,00€</p>
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-    </body>
-
-    <footer>
-
-        <p>Copyright © 2021 Nautilius Inc. Tous droits réservés.</p>
-
-        <div>
-          <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c530.png" alt="Icon">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1280px-Visa_Inc._logo.svg.png" alt="Icon">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/MasterCard_early_1990s_logo.svg/1280px-MasterCard_early_1990s_logo.svg.png" alt="Icon">
-          <img src="https://www.entrepreneurhero.fr/wp-content/uploads/2019/07/cb-logo-eu-16jun17.png" alt="Icon">
-        </div>
-
-        <p>Site conçu par Sami H.</p>
-
-    </footer>
+	<footer>
+		<p>
+			Copyright © 2021 Nautilius Inc. Tous droits réservés.
+		</p>
+		<div>
+			<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c530.png" alt="Icon">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1280px-Visa_Inc._logo.svg.png" alt="Icon">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/MasterCard_early_1990s_logo.svg/1280px-MasterCard_early_1990s_logo.svg.png" alt="Icon">
+			<img src="https://www.entrepreneurhero.fr/wp-content/uploads/2019/07/cb-logo-eu-16jun17.png" alt="Icon">
+		</div>
+		<p>
+			Site conçu par Sami H.
+		</p>
+	</footer>
+	</body>
 </html>

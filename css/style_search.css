@@ -61,7 +61,7 @@ input:in-range {
 }
 
 input[type="checkbox"]:checked:before {
-    content: '✕';
+    content: '✓';
     position: absolute;
     top: 6.5px;
     left: 0.75px;
@@ -73,19 +73,19 @@ input[type="checkbox"]:checked:before {
 
 /* ------- */
 
-button {
-  font-size: 1.2vw;
+#submit {
+  font-size: 18px;
   margin: 3vw;
   background-color: #CCCCCC;
   border: solid 1.5px black;
   border-radius: 4px;
   font-weight: 600;
+  text-align: center;
 }
 
-button:focus {
-  outline: none;
+#submit:hover {
+  background-color: #EFEFEF;
 }
-
 /* ------- */
 .resultat {
   width: 80vw;
@@ -111,16 +111,9 @@ button:focus {
 /* Articles */
 
 .article {
-  margin: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-}
-
-@media (max-width:700px) {
-  .article {
-    grid-template-columns: 1fr;
-  }
+  margin: 0.5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .article a {
@@ -131,6 +124,9 @@ button:focus {
   align-items: center;
   text-decoration: none;
   color: black;
+  width: 48%;
+  overflow: hidden;
+  margin: 0.5%;
 }
 
 .article a:hover {
@@ -141,6 +137,7 @@ button:focus {
   margin-top: 10px;
   height: 30vh;
   border: solid 1px black;
+  overflow: hidden;
 }
 
 .article h1 {
